@@ -94,8 +94,8 @@ new ThreeGlobe({ configOptions })
 | <b>atmosphereAltitude</b>([<i>str</i>]) | Getter/setter for the max altitude of the atmosphere, in terms of globe radius units. | 0.15 |
 | <b>globeMaterial</b>([<i>material</i>]) | Getter/setter of the ThreeJS material used to wrap the globe. Can be used for more advanced styling of the globe, like in [this example](https://github.com/vasturiano/three-globe/blob/master/example/custom-material/index.html). | [MeshPhongMaterial](https://threejs.org/docs/#api/en/materials/MeshPhongMaterial) |
 | <b>onGlobeReady</b>(<i>fn</i>) | Callback function to invoke immediately after the globe has been initialized and visible on the scene. |
-| <b>widthSegments</b>([<i>number</i>]) | Defines the number of horizontal segments the globe will have. Lower values help with performance but decrease globe clarity. |
-| <b>heightSegments</b>([<i>number</i>]) | Defines the number of vertical segments the globe will have. Lower values help with performance but decrease globe clarity. |
+| <b>widthSegments</b>([<i>number</i>]) | Defines the number of horizontal segments the globe will have. Lower values help with performance but decrease globe clarity. | `75` |
+| <b>heightSegments</b>([<i>number</i>]) | Defines the number of vertical segments the globe will have. Lower values help with performance but decrease globe clarity. | `75` |
 
 ### Points Layer
 
