@@ -1,0 +1,92 @@
+{
+  "name": "globe-perf",
+  "version": "2.31.0",
+  "description": "Globe data visualization as a ThreeJS reusable 3D object. It is the original three-globe NPM package, with a modification to allow a custom typed polygon count, with the intention of optimizing the perfomance for weaker devices",
+  "type": "module",
+  "unpkg": "dist/globe-perf.min.js",
+  "main": "dist/globe-perf.mjs",
+  "module": "dist/globe-perf.mjs",
+  "types": "dist/globe-perf.d.ts",
+  "exports": {
+    "types": "./dist/globe-perf.d.ts",
+    "umd": "./dist/globe-perf.min.js",
+    "default": "./dist/globe-perf.mjs"
+  },
+  "sideEffects": false,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/John-Nik/globe-perf.git"
+  },
+  "homepage": "https://github.com/John-Nik/globe-perf",
+  "keywords": [
+    "3d",
+    "globe",
+    "webgl",
+    "visualization",
+    "three",
+	  "customize",
+	  "polygons",
+	  "optimized",
+	  "react",
+    "perfomance"
+  ],
+  "author": {
+    "name": "Giannis Nikolaou",
+    "url": "https://github.com/John-Nik"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/John-Nik/globe-perf/issues"
+  },
+  "scripts": {
+    "build": "rimraf dist && rollup -c",
+    "dev": "rollup -w -c rollup.config.dev.js",
+    "prepare": "npm run build"
+  },
+  "files": [
+    "dist/**/*",
+    "example/**/*"
+  ],
+  "dependencies": {
+    "@tweenjs/tween.js": "18 - 23",
+    "accessor-fn": "1",
+    "d3-array": "3",
+    "d3-color": "3",
+    "d3-geo": "3",
+    "d3-interpolate": "3",
+    "d3-scale": "4",
+    "d3-scale-chromatic": "3",
+    "data-joint": "1",
+    "earcut": "2",
+    "frame-ticker": "1",
+    "h3-js": "4",
+    "index-array-by": "1",
+    "kapsule": "1",
+    "three-conic-polygon-geometry": "1",
+    "three-fatline": "^0.6",
+    "three-geojson-geometry": "1",
+    "tinycolor2": "1",
+    "yaot": "^1.1"
+  },
+  "peerDependencies": {
+    "three": ">=0.125"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.23.9",
+    "@babel/preset-env": "^7.23.9",
+    "@rollup/plugin-babel": "^6.0.4",
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "@rollup/plugin-json": "^6.1.0",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-terser": "^0.4.4",
+    "@types/three": ">=0.125.0",
+    "rimraf": "^5.0.5",
+    "rollup": "^4.12.0",
+    "rollup-plugin-dts": "^6.1.0",
+    "three": "^0.161.0",
+    "typescript": "^5.3.3"
+  },
+  "engines": {
+    "node": ">=12"
+  }
+}
