@@ -4,7 +4,6 @@
 
 [![NPM package][npm-img]][npm-url]
 [![Build Size][build-size-img]][build-size-url]
-[![NPM Downloads][npm-downloads-img]][npm-downloads-url]
 
 <p align="center">
   <a href="//vasturiano.github.io/three-globe/example/basic/"><img width="80%" src="https://vasturiano.github.io/three-globe/example/preview.png"></a>
@@ -313,8 +312,6 @@ new ThreeGlobe({ configOptions })
 [![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donate_SM.gif)](https://www.paypal.com/donate/?hosted_button_id=JF9RVQ9QGRRYU) If this project has helped you and you'd like to contribute back, you can always [buy me a ☕](https://www.paypal.com/donate/?hosted_button_id=JF9RVQ9QGRRYU)!
 
 [npm-img]: https://img.shields.io/npm/v/three-globe
-[npm-url]: https://npmjs.org/package/three-globe
+[npm-url]: https://npmjs.org/package/globe-perf
 [build-size-img]: https://img.shields.io/bundlephobia/minzip/three-globe
 [build-size-url]: https://bundlephobia.com/result?p=three-globe
-[npm-downloads-img]: https://img.shields.io/npm/dt/three-globe
-[npm-downloads-url]: https://www.npmtrends.com/three-globe

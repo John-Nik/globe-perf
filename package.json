@@ -1,6 +1,6 @@
 {
   "name": "globe-perf",
-  "version": "2.31.0",
+  "version": "2.31.1",
   "description": "Globe data visualization as a ThreeJS reusable 3D object. It is the original three-globe NPM package, with a modification to allow a custom typed polygon count, with the intention of optimizing the perfomance for weaker devices",
   "type": "module",
   "unpkg": "dist/globe-perf.min.js",
@@ -37,11 +37,6 @@
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/John-Nik/globe-perf/issues"
-  },
-  "scripts": {
-    "build": "rimraf dist && rollup -c",
-    "dev": "rollup -w -c rollup.config.dev.js",
-    "prepare": "npm run build"
   },
   "files": [
     "dist/**/*",
